@@ -1,0 +1,81 @@
+[2023-09-19 14:46:59] DNSauthoritative-1  started
+[2023-09-19 14:46:59] DNSauthoritative-1 listening on port: 7781
+[2023-09-19 14:47:00] DNSauthoritative-2  started
+[2023-09-19 14:47:00] DNSauthoritative-2 listening on port: 7783
+[2023-09-19 14:47:00] DNSauthoritative-3  started
+[2023-09-19 14:47:00] DNSauthoritative-3 listening on port: 7784
+[2023-09-19 14:47:01] DNSauthoritative-4  started
+[2023-09-19 14:47:01] DNSauthoritative-4 listening on port: 7782
+[2023-09-19 14:47:01] DNStld-1 started
+[2023-09-19 14:47:01] DNStld-1 listening on port: 7779
+[2023-09-19 14:47:01] DNStld-1 receving delegation from root
+[2023-09-19 14:47:02] DNStld-2 started
+[2023-09-19 14:47:02] DNStld-2 listening on port: 7780
+[2023-09-19 14:47:02] DNStld-2 receving delegation from root
+[2023-09-19 14:47:02] DNSRoot started
+[2023-09-19 14:47:02] DNSRoot delegation to TLD started
+[2023-09-19 14:47:02] DNStld-1 delegation completed
+[2023-09-19 14:47:02] DNStld-1 delegation to authoritatives started
+[2023-09-19 14:47:02] DNStld-2 delegation completed
+[2023-09-19 14:47:02] DNStld-2 delegation to authoritatives started
+[2023-09-19 14:47:02] DNSauthoritative-1  client accepted
+[2023-09-19 14:47:02] DNSauthoritative-2  client accepted
+[2023-09-19 14:47:02] DNSauthoritative-2 receving delegation from TLD
+[2023-09-19 14:47:02] DNSauthoritative-2  client accepted
+[2023-09-19 14:47:02] DNSauthoritative-2 receving delegation from TLD
+[2023-09-19 14:47:02] DNSauthoritative-3  client accepted
+[2023-09-19 14:47:02] DNSauthoritative-3 receving delegation from TLD
+[2023-09-19 14:47:02] DNSauthoritative-3  client accepted
+[2023-09-19 14:47:02] DNSauthoritative-3 receving delegation from TLD
+[2023-09-19 14:47:02] DNStld-1 delegation to authoritatives completed
+[2023-09-19 14:47:02] DNSauthoritative-2  client accepted
+[2023-09-19 14:47:02] DNSRoot delegation to TLD completed
+[2023-09-19 14:47:02] DNSRoot listening on port: 7778
+[2023-09-19 14:47:02] DNSauthoritative-1 receving delegation from TLD
+[2023-09-19 14:47:02] DNSauthoritative-1  client accepted
+[2023-09-19 14:47:02] DNSauthoritative-1 receving delegation from TLD
+[2023-09-19 14:47:02] DNSauthoritative-2 delegation completed
+[2023-09-19 14:47:02] DNSauthoritative-3  client accepted
+[2023-09-19 14:47:02] DNSauthoritative-4  client accepted
+[2023-09-19 14:47:02] DNSauthoritative-4 receving delegation from TLD
+[2023-09-19 14:47:02] DNSauthoritative-4  client accepted
+[2023-09-19 14:47:02] DNSauthoritative-4 receving delegation from TLD
+[2023-09-19 14:47:02] DNStld-2 delegation to authoritatives completed
+[2023-09-19 14:47:02] DNSauthoritative-1  client accepted
+[2023-09-19 14:47:02] DNSauthoritative-1 delegation completed
+[2023-09-19 14:47:02] DNSauthoritative-4  client accepted
+[2023-09-19 14:47:02] DNSauthoritative-4 delegation completed
+[2023-09-19 14:47:02] DNSauthoritative-3 delegation completed
+[2023-09-19 14:47:02] DNSLocale started
+[2023-09-19 14:47:02] DNSLocale listening on port: 7777
+[2023-09-19 14:47:07] --------------------------------------
+[2023-09-19 14:48:13] DNSLocale client accepted
+[2023-09-19 14:48:13] DNSlocale data received from client: www.google.it
+[2023-09-19 14:48:13] DNSLocale didn't find the address: www.google.it in its database
+[2023-09-19 14:48:13] DNSLocale asking for the address: www.google.it to DNSRoot on port 7778
+[2023-09-19 14:48:13] DNSRoot client accepted
+[2023-09-19 14:48:13] DNSRoot data received from DNSLocale: www.google.it
+[2023-09-19 14:48:13] DNSRoot asking for the address: www.google.it to TLD on port 7779
+[2023-09-19 14:48:13] DNStld-1 client accepted
+[2023-09-19 14:48:13] DNStld-1 data received from DNSRoot: www.google.it
+[2023-09-19 14:48:13] DNStld-1 asking for the address: www.google.it to SLD on port 7783
+[2023-09-19 14:48:13] DNSauthoritative-2  client accepted
+[2023-09-19 14:48:13] DNSauthoritative-2 data received from TLD: www.google.it
+[2023-09-19 14:48:13] DNSauthoritative-2 sending response to TLD: 185.15.58.224
+[2023-09-19 14:48:13] DNStld-1 data received from SLD: 185.15.58.224
+[2023-09-19 14:48:13] DNStld-1 sending response to DNSRoot: 185.15.58.224
+[2023-09-19 14:48:13] DNSRoot data received from TLD: 185.15.58.224
+[2023-09-19 14:48:13] DNSRoot sending response: 185.15.58.224 to DNSLocale
+[2023-09-19 14:48:13] DNSLocale data received from root: 185.15.58.224
+[2023-09-19 14:48:13] DNSLocale sending response: 185.15.58.224 to client
+[2023-09-19 14:48:15] --------------------------------------
+[2023-09-19 14:48:55] DNSLocale client accepted
+[2023-09-19 14:48:55] DNSlocale data received from client: www.chess.com
+[2023-09-19 14:48:55] DNSLocale didn't find the address: www.chess.com in its database
+[2023-09-19 14:48:55] DNSLocale asking for the address: www.chess.com to DNSRoot on port 7778
+[2023-09-19 14:48:55] DNSRoot client accepted
+[2023-09-19 14:48:55] DNSRoot data received from DNSLocale: www.chess.com
+[2023-09-19 14:48:55] DNSRoot sending response: NOT_EXISTS to DNSLocale
+[2023-09-19 14:48:55] DNSLocale data received from root: NOT_EXISTS
+[2023-09-19 14:48:55] DNSLocale sending response: NOT_EXISTS to client
+[2023-09-19 14:48:58] --------------------------------------
